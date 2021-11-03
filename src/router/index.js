@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import Content from '../components/Content'
 import Main from '../components/Main'
 import Edit from '../components/Edit'
+import Statistics from '../components/Statistics'
 
 
 import Editor from '../components/Editor/Editor'
@@ -41,9 +42,9 @@ export default new VueRouter({
     ]
   },
   {
-    path:'/visualization',
-    name:'visualization',
-    component:Charts
+    path:'/statistics',
+    name:'statistics',
+    component:Statistics
   },
 ]
 });

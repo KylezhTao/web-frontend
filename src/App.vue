@@ -55,11 +55,11 @@
               </span>
             </el-menu-item>
           </router-link>
-          <router-link to='/visualization'>
+          <router-link to='/statistics'>
             <el-menu-item index="4">
               <span slot="title">
                 <i class="el-icon-s-data"></i>
-                数据可视化
+                统计与可视化
               </span>
             </el-menu-item>
           </router-link>

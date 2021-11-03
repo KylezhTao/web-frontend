@@ -11,6 +11,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 import store from './assets/store';
 
 import axios from 'axios'
+import * as echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
