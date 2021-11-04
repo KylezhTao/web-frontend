@@ -29,7 +29,7 @@
       </el-row>
 
       <el-container style="border:4px solid #eee">
-        <el-menu default-active="1"
+        <el-menu :default-active="this.$route.path"
                  class="el-menu-vertical-demo">
           <router-link to='/main'>
             <el-menu-item index="1">
